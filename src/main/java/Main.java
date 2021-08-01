@@ -13,15 +13,17 @@ public class Main {
 
         StrategyDesignPattern strategy = new StrategyDesignPattern();
         strategy.run();
-
+        System.out.println("--------------------------------------");
         ObserverDesignPattern observer = new ObserverDesignPattern();
         observer.run();
-
+        System.out.println("--------------------------------------");
         DecoratorDesignPattern decorator = new DecoratorDesignPattern();
         decorator.run();
-
+        System.out.println("--------------------------------------");
         FactoryDesignPattern factory = new FactoryDesignPattern();
         factory.run();
+        System.out.println("--------------------------------------");
+        CommandDesignPattern command = new CommandDesignPattern();
+        command.run();
     }
-
 }
