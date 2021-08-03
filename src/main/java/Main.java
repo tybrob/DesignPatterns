@@ -8,6 +8,7 @@ public class Main {
     //Strive for loosely coupled designs between objects that interact
     //Classes should be open for extension but closed for modification
     //Depend on abstractions, do not depend on concrete classes
+    //Talk only to your immediate friends
 
     public static void main(String[] args) {
 
@@ -25,5 +26,11 @@ public class Main {
         System.out.println("--------------------------------------");
         CommandDesignPattern command = new CommandDesignPattern();
         command.run();
+        System.out.println("--------------------------------------");
+        AdapterDesignPattern adapter = new AdapterDesignPattern();
+        adapter.run();
+        System.out.println("--------------------------------------");
+        FacadeDesignPattern facade = new FacadeDesignPattern();
+        facade.run();
     }
 }
