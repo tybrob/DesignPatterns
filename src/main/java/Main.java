@@ -9,6 +9,7 @@ public class Main {
     //Classes should be open for extension but closed for modification
     //Depend on abstractions, do not depend on concrete classes
     //Talk only to your immediate friends
+    //Don't Call us, we'll call you (Template Design Pattern)
 
     public static void main(String[] args) {
 
@@ -32,5 +33,8 @@ public class Main {
         System.out.println("--------------------------------------");
         FacadeDesignPattern facade = new FacadeDesignPattern();
         facade.run();
+        System.out.println("--------------------------------------");
+        TemplateDesignPattern template = new TemplateDesignPattern();
+        template.run();
     }
 }
