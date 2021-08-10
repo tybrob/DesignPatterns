@@ -10,7 +10,7 @@ public class Main {
     //Depend on abstractions, do not depend on concrete classes
     //Talk only to your immediate friends
     //Don't Call us, we'll call you (Template Design Pattern)
-    //
+    //A class should have only one reason to change SRP
 
     public static void main(String[] args) {
 
@@ -40,5 +40,8 @@ public class Main {
         System.out.println("--------------------------------------");
         IteratorDesignPattern iterator = new IteratorDesignPattern();
         iterator.run();
+        System.out.println("--------------------------------------");
+        CompositeDesignPattern composite = new CompositeDesignPattern();
+        composite.run();
     }
 }
