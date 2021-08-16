@@ -43,5 +43,8 @@ public class Main {
         System.out.println("--------------------------------------");
         CompositeDesignPattern composite = new CompositeDesignPattern();
         composite.run();
+        System.out.println("--------------------------------------");
+        StateDesignPattern state = new StateDesignPattern();
+        state.run();
     }
 }
