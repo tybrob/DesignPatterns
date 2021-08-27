@@ -46,5 +46,8 @@ public class Main {
         System.out.println("--------------------------------------");
         StateDesignPattern state = new StateDesignPattern();
         state.run();
+        System.out.println("--------------------------------------");
+        ProxyDesignPattern proxy = new ProxyDesignPattern();
+        proxy.run();
     }
 }
